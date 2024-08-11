@@ -28,6 +28,12 @@ body {
   margin-right: auto;
 }
 
+p.scoreicon {
+  font-size: 4em;
+  font-family: monospace;
+  color: red;
+}
+
 .unifrakturcook-bold {
   font-family: "UnifrakturCook", cursive;
   font-weight: 700;

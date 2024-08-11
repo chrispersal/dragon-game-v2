@@ -41,12 +41,12 @@ export default function App() {
     <div className="mainBody">
       <img
         src="src/assets/dragonlogotwo.png"
-        width={400}
-        height={140}
+        width={500}
+        height={240}
         alt="React Image"
       />
       <button onClick={clickPoints}>Score!</button>
-      <p>You got {points} points.</p>
+      <p classname="scoreicon">You got {points} points.</p>
       {upgrades.map((upgrade, index) => (
         <div key={index}>
           <button className="upg" onClick={() => buyUpgrade(index)}>
